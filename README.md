@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Utility Evaluator](Images/UtilityPlugin.png)
+
 A lightweight extension to the Unreal Engine's Behavior Tree System, introducing nodes that facilitate utility-based decision making:
 
 * A Consideration which queries the game state and ouputs a score based on the assigned response curve.
