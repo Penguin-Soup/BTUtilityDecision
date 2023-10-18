@@ -115,6 +115,7 @@ Wait or MoveTo can not be aborted even other children now has a higher utility s
 ## References
 
 These are the texts/videos/projects that inspired this plugin:
+
 [How Utility AI Helps NPCs Decide What To Do Next | AI 101](https://youtu.be/p3Jbp2cZg3Q)
 
 [Improving AI Decision Modeling Through Utility Theory](https://www.gdcvault.com/play/1012410/Improving-AI-Decision-Modeling-Through%C2%A0)
