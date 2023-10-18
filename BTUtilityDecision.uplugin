@@ -1,0 +1,24 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BTUtilityDecision",
+	"Description": "Extends the Unreal Engine's Behaviour Tree system via adding utility based nodes",
+	"Category": "AI",
+	"CreatedBy": "Penguin-Soup",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:kshkim0116@hotmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BTUtilityDecision",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
