@@ -23,7 +23,7 @@ A lightweight extension to the Unreal Engine's Behavior Tree System, introducing
 
 A consideration represents an AI agent's query of the game state, such as its current health or a distance to a target.
 A consideration has two components, a raw value and a response curve.
-A consideration's score is the value of a response curve at the point in time specified by the raw value, which is also between 0 and 1.
+A consideration's score is the value of a response curve at the point in time specified by the raw value, which is between 0 and 1.
 By modelling considerations on a curve, it allow developers to modify the raw value in a versitile manner, be it inverting it, or making it scale exponentially.
 
 ![Response Curve](Images/UtilityCurve.png)
