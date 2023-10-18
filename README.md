@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Utility Evaluator](Images/UtilityPlugin.png)
+![Utility Evaluator](Images/UtilityPlugin.PNG)
 
 A lightweight extension to the Unreal Engine's Behavior Tree System, introducing nodes that facilitate utility-based decision making:
 
@@ -57,7 +57,7 @@ private:
 };
  ```
 * Blueprints: Inherit from the BlueprintConsideration class and override the BlueprintGetValue() function.
-![Blueprint Consideration](Images/BPConsideration.png)
+![Blueprint Consideration](Images/BPConsideration.PNG)
 
 It is important that the raw value returned from these functions are between 0 to 1.
 This is to ensure that the game world data that considerations use are all normalized to a scale where they can be all compared equally.
@@ -75,7 +75,7 @@ For the same reason as the raw value, ensure that the curve is also normalized b
 
 ### Utility Evaluator
 
-![Utility Evaluator](Images/UtilityEvaluator.png)
+![Utility Evaluator](Images/UtilityEvaluator.PNG)
 
 A utility evaluator is a decorator node that holds an array of considerations. The utility score it returns is calculated using the considerations' scores, 
 the evaluation method as well as the randomness value.
