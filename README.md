@@ -4,7 +4,7 @@
 
 ![Utility Evaluator](Images/UtilityPlugin.PNG)
 
-A lightweight extension to the Unreal Engine's Behavior Tree System, introducing nodes that facilitate utility-based decision making:
+BT Utility Decision is an Unreal Engine 5 plugin. It is a lightweight extension to the Unreal Engine's Behavior Tree System, introducing nodes that facilitate utility-based decision making:
 
 * A Consideration which queries the game state and ouputs a score based on the assigned response curve.
 * A Utility Evaluator that calculates and returns a utility score based on considerations it holds and other parameters.
@@ -12,10 +12,15 @@ A lightweight extension to the Unreal Engine's Behavior Tree System, introducing
 
 ## Installation
 
-1. Download the ZIP
-2. Create "Plugins" folder in the project root directory
-3. Place the ZIP inside the Plugins folder and extract
-4. Run the project
+1. Download the ZIP.
+2. Create "Plugins" folder in the project root directory.
+3. Place the ZIP inside the Plugins folder and extract.
+4. Run the project. If there is a popup about missing modules and asks you to rebuild the plugin, click "YES".
+
+## Resources
+
+[Plugin Demonstration Video](https://www.youtube.com/watch?v=AXKbSbcPcVk)
+[Sample Project](https://drive.google.com/file/d/1PF_6YqVYr7pj_LWdTftREdys1Je84i9K/view?usp=sharing)
 
 ## Usage
 
@@ -111,6 +116,11 @@ and the lowest scoring child last. The ordering is determined each time the Util
   
 As mentioned in the Utility Selector section, the current system does not allow for re-evaluation until the child has finished its tasks. This means that long-running latent actions such as 
 Wait or MoveTo can not be aborted even other children now has a higher utility score.
+
+## Supported Versions
+
+This plugin is compatible with Unreal Engine 5.0 and above.
+However, if you replace the TObjectPtr with raw pointers in the plugin's classes, it should also be compatible with engine version 4.22 and above.
 
 ## References
 
