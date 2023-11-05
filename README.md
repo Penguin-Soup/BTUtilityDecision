@@ -21,7 +21,7 @@ BT Utility Decision is an Unreal Engine 5 plugin. It is a lightweight extension 
 
 [Plugin Demonstration Video](https://www.youtube.com/watch?v=AXKbSbcPcVk)
 
-[Sample Project](https://drive.google.com/file/d/1PF_6YqVYr7pj_LWdTftREdys1Je84i9K/view?usp=sharing)
+[Sample Project (UE 5.1)](https://drive.google.com/file/d/1PF_6YqVYr7pj_LWdTftREdys1Je84i9K/view?usp=sharing)
 
 ## Usage
 
